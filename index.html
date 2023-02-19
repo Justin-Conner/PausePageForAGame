@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<script>
+  const player = new Plyr('#player');
+</script>
+<!-- including the plyr library-->
+<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+  <head>
+    <style>
+      .square {
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        position: absolute;
+      }
+      body {
+  background-color: black;
+}
+center{
+  font-size: 10em;
+  color: white;
+  font-family: courier;
+  text-align:  center;
+  padding: 200px 0;
+}
+    </style>
+  </head>
+  <body>
+    <audio id="player" controls>
+  <source src="https://drive.google.com/file/d/12fTuTy9Se1fNNJVAQfcb7ufjxabgf9sC/view?usp=share_link" type="audio/mp3">
+</audio>
+    <center>Paused</center>
+    <script src="fallingSquares.js"></script>
+  </body>
+</html>
